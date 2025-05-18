@@ -22,15 +22,15 @@ while True:
     user_input=input('Enter a Number : ')
 
     if is_valid_f_number(user_input):
-        print("Entry " + user_input + " is valid number " )
+        print(f"Entry { user_input } is valid number " )
         number = float(user_input)
         break
     else:
-        print("Entry " + user_input + " is Invalid! " )
+        print(f"Entry { user_input } is Invalid! " )
 
 if number < 0 :
-    print(str(number) + " is less than 0")
+    print(f"{str(number)} is less than 0")
 elif number > 0:
-    print(str(number) + " is greater than 0")
+    print(f"{str(number)} is greater than 0")
 else :
-    print(str(number) + " is zero")
+    print(f"{str(number)} is zero")

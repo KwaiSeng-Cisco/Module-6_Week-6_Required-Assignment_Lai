@@ -17,11 +17,11 @@ height = "185"
 
 ### Prints a greeting message using the name. 
 
-print("Hello " + name)
+print(f"Hello {name}")
 
 age_10yrs_later = int(age) + 10
-print("You will be  " + str(age_10yrs_later) + " in 10 years time")
+print(f"You will be  {str(age_10yrs_later)} in 10 years time")
 
 metric_heigh_in_m = int(height)/100
 
-print("Your height it " + str(metric_heigh_in_m) + "M")
+print(f"Your height it {str(metric_heigh_in_m)}M")
